@@ -1,0 +1,15 @@
+﻿#content   { width:800px; float:left; font-family:'Agency FB'; font-size:18px; }
+
+h2          { font-size:20px; margin-bottom:5px; color:#0094ff; 
+              text-align:left; font-family:Agatha; }
+
+h4          { font-size:20px; margin-bottom:5px; color:#0094ff; 
+              text-align:left; font-family:Agatha; }
+
+p.text1, p.text2, p.text3,
+p.text4, p.text5, p.text6  { font-family:'Agency FB'; font-size:20px; color:#b200ff;
+                             text-align:left; font-weight:bold; }
+
+pre                  { font-family:'Agency FB'; font-size:20px; color:#b200ff; text-align:left; }
+
+

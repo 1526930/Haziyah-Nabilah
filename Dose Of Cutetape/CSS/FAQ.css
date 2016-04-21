@@ -1,0 +1,8 @@
+﻿h2              { font-size:20px; margin-bottom:5px; color:#0094ff; 
+                  text-align:center; font-family:Agatha; }
+
+p.text1, p.text2, p.text3,
+p.text4, p.text5, p.text6, p.text7 { font-family:'Agency FB'; font-size:20px; color:#b200ff; 
+                              text-align:center; font-weight:bold; }
+
+pre             { font-family:'Agency FB'; font-size:20px; color:#b200ff; text-align:center; }

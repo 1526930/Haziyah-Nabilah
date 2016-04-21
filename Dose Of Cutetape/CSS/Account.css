@@ -1,0 +1,48 @@
+﻿div, h2, p  { margin:2px; padding:2px; border:2px; vertical-align:central; }
+
+h2          { font-size:20px; margin-bottom:5px; color:#0094ff; 
+              text-align:center; font-family:Agatha; font-size: 25px; }
+
+h3          { font-family:'Agency FB'; font-size:18px; color:#b200ff;
+              text-align:center; margin:2px; padding:2px; border:2px; vertical-align:central; }
+
+ul li       { display:inline-block; }
+
+ul li #lbluseremail     { font-family:'Agency FB'; font-size:20px; color:#b200ff; 
+                          font-weight:bold; margin-left:240px; margin-right:5px; }
+ul li #lbluserpassword  { font-family:'Agency FB'; font-size:20px; color:#b200ff; 
+                          font-weight:bold; margin-left:210px; margin-right:5px; }
+
+ul li #txtuseremail     { font-family:'Agency FB'; font-size:18px; width:250px; 
+                          height:30px; margin-top:10px; margin-bottom:5px; margin-left:20px; } 
+ul li #txtuserpassword  { font-family:'Agency FB'; font-size:18px; width:250px; 
+                          height:30px; margin-top:10px; margin-bottom:5px; margin-left:20px; }         
+
+ul li #btnSendEmail     { font-family:'Agency FB'; font-size:18px; width:80px; height:30px; 
+                          color:#b200ff; margin-left:390px; margin-top:5px; }
+ul li #btnCancel        { font-family:'Agency FB'; font-size:18px; width:80px; height:30px; 
+                          color:#b200ff; margin-left:10px;margin-top:5px; }
+
+ul li #lblfullname          { font-family:'Agency FB'; font-size:20px; color:#b200ff; 
+                              font-weight:bold; margin-left:200px; margin-right:5px; }
+ul li #lblemail             { font-family:'Agency FB'; font-size:20px; color:#b200ff; 
+                              font-weight:bold; margin-left:200px; margin-right:5px; }
+ul li #lblpassword          { font-family:'Agency FB'; font-size:20px; color:#b200ff; 
+                              font-weight:bold; margin-left:200px; margin-right:5px; }
+ul li #lblconfirmpassword   { font-family:'Agency FB'; font-size:20px; color:#b200ff; 
+                              font-weight:bold; margin-left:200px; margin-right:5px; }
+
+ul li #txtfullname         { font-family:'Agency FB'; font-size:18px; width:250px; height:30px; 
+                             margin-top:10px; margin-bottom:5px; margin-left:28px; }
+ul li #txtemail            { font-family:'Agency FB'; font-size:18px; width:250px; height:30px; 
+                             margin-top:10px; margin-bottom:5px; margin-left:48px; }
+ul li #txtpassword         { font-family:'Agency FB'; font-size:18px; width:250px; height:30px; 
+                             margin-top:10px; margin-bottom:5px; margin-left:20px; }
+ul li #txtconfirmpassword  { font-family:'Agency FB'; font-size:18px; width:250px; height:30px; 
+                             margin-top:10px; margin-bottom:5px; margin-left:5px; }
+
+ul li #btnSignup           { font-family:'Agency FB'; font-size:18px; width:80px; height:30px; 
+                             color:#b200ff; margin-left:410px; margin-top:5px; }
+ul li #btnSignupReset    { font-family:'Agency FB'; font-size:18px; width:80px; height:30px; 
+                             color:#b200ff; margin-left:10px;margin-top:5px; }
+

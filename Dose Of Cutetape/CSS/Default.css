@@ -1,0 +1,18 @@
+﻿
+#content 	       { width:900px; float:left; font-family:Agatha; font-size:18px; text-align:center; }
+
+h2                { font-family: Agatha; font-size:22px; margin-left:190px; margin-right:100px; margin-bottom:5px; color:#b200ff; text-align:center; }
+
+h4                { font-family:Agatha; font-size:20px; text-align:center; color:#0094ff; margin-left:110px; margin-bottom:5px; }
+
+pre                  { font-family:'Agency FB'; font-size:20px; color:#b200ff; text-align:center; margin-left:100px; margin-right:100px; }
+
+table, tr, th, td,    { margin: 0; padding: 0; border: 0; vertical-align: baseline; 
+                        background: transparent; align-content:center;  }
+	
+table              { border-collapse: collapse; border-spacing: 0; }
+
+tr td a img     { width:250px; height:250px; margin-top:20px; margin-bottom:10px; display:inline-table; margin-left:20px; margin-right:22px; }
+
+
+
