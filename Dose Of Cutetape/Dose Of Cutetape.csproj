@@ -95,12 +95,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account.aspx" />
+    <Content Include="Admin\Admin.aspx" />
     <Content Include="CSS\Account.css" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="MasterPage.Master" />
+    <Content Include="Admin\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -109,7 +111,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Contact Us.aspx" />
+    <Content Include="ContactUs.aspx" />
     <Content Include="CSS\Contact Us.css" />
     <Content Include="CSS\Customer Service.css" />
     <Content Include="CSS\FAQ.css" />
@@ -117,7 +119,7 @@
     <Content Include="CSS\Party Supplies.css" />
     <Content Include="CSS\Shop.css" />
     <Content Include="CSS\Washi Tape.css" />
-    <Content Include="Customer Service.aspx" />
+    <Content Include="CustomerService.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="CSS\Default.css" />
     <Content Include="FAQ.aspx" />
@@ -136,12 +138,16 @@
     <Content Include="IMAGES\twitter.png" />
     <Content Include="CSS\MasterPage.css" />
     <Content Include="Packaging.aspx" />
-    <Content Include="Party Supplies.aspx" />
+    <Content Include="PartySupplies.aspx" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="scripts\jquery-1.12.3.js" />
+    <Content Include="scripts\jquery-1.12.3.min.js" />
     <Content Include="Shop.aspx" />
-    <Content Include="Washi Tape.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="WashiTape.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Account.aspx.cs">
@@ -151,19 +157,26 @@
     <Compile Include="Account.aspx.designer.cs">
       <DependentUpon>Account.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Contact Us.aspx.cs">
-      <DependentUpon>Contact Us.aspx</DependentUpon>
+    <Compile Include="Admin\Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Contact Us.aspx.designer.cs">
-      <DependentUpon>Contact Us.aspx</DependentUpon>
+    <Compile Include="Admin\Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Customer Service.aspx.cs">
-      <DependentUpon>Customer Service.aspx</DependentUpon>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Customer Service.aspx.designer.cs">
-      <DependentUpon>Customer Service.aspx</DependentUpon>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerService.aspx.cs">
+      <DependentUpon>CustomerService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerService.aspx.designer.cs">
+      <DependentUpon>CustomerService.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -196,12 +209,12 @@
     <Compile Include="Packaging.aspx.designer.cs">
       <DependentUpon>Packaging.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Party Supplies.aspx.cs">
-      <DependentUpon>Party Supplies.aspx</DependentUpon>
+    <Compile Include="PartySupplies.aspx.cs">
+      <DependentUpon>PartySupplies.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Party Supplies.aspx.designer.cs">
-      <DependentUpon>Party Supplies.aspx</DependentUpon>
+    <Compile Include="PartySupplies.aspx.designer.cs">
+      <DependentUpon>PartySupplies.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shop.aspx.cs">
@@ -211,16 +224,17 @@
     <Compile Include="Shop.aspx.designer.cs">
       <DependentUpon>Shop.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Washi Tape.aspx.cs">
-      <DependentUpon>Washi Tape.aspx</DependentUpon>
+    <Compile Include="WashiTape.aspx.cs">
+      <DependentUpon>WashiTape.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Washi Tape.aspx.designer.cs">
-      <DependentUpon>Washi Tape.aspx</DependentUpon>
+    <Compile Include="WashiTape.aspx.designer.cs">
+      <DependentUpon>WashiTape.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Controller\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

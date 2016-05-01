@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Dose Of Cutetape Customer Service Page" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Customer Service.aspx.cs" Inherits="Dose_Of_Cutetape.Customer_Service" %>
+﻿<%@ Page Title="Customer Service Page" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="CustomerService.aspx.cs" Inherits="Dose_Of_Cutetape.Customer_Service" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="CSS/Customer%20Service.css" rel="stylesheet" type="text/css" media="screen"/>

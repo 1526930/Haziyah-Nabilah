@@ -1,51 +1,85 @@
 ﻿
 
-#outer	 			{ width:960px; margin:0 auto;  }
+#outer	 			{ width:960px; 
+                      margin:0 auto;  }
 
-#wrapper 			{ width:900px; margin:0 auto;  }
+#wrapper 			{ width:900px;
+                      margin:0 auto;  }
 
-#logo	 			{ margin:30px 0px; float:left; width:250px; height: 150px;  }
+#logo	 			{ margin:30px 0px; 
+                      float:left; 
+                      width:250px; 
+                      height: 150px;  }
 
-#textarea    { text-decoration: none; text-align: center; color:#b200ff;
-               font-family:'Agency FB'; font-size:25px; }
+#textarea    { text-decoration: none; 
+               text-align: center; 
+               color:#b200ff;
+               font-family:'Agency FB'; 
+               font-size:25px; }
 
-h2           { font-size:20px; margin-bottom:5px; color:#0094ff; text-align:left; }
+h2          { font-size:20px; 
+              margin-bottom:5px; 
+              color:#0094ff; 
+              text-align:center; 
+              font-family:Agatha; 
+              font-size: 25px; }
 
-image               { width:250px; height:150px; }
+image               { width:250px;
+                      height:150px; }
 
 #social-media-icons			{ float:right;	}
 #social-media-icons	ul li 	{ display:inline; }
 #social-media-icons ul		{ margin-top:40px; }
-#social-media-icons ul li a img { width:25px; height:20px; }
+#social-media-icons ul li a img { width:25px; 
+                                  height:20px; }
 
 #rightnav               { clear:both; }
 
-#rightnav ul			{ border-top:1px #000 solid; border-bottom:1px #000 solid;
-						text-align:center; margin:20px 0; padding:10px 0;	color:#ff006e; 
-                        font-family:'Agency FB'; font-size:18px; }
+#rightnav ul			{ border-top:1px #000 solid; 
+                          border-bottom:1px #000 solid;
+						  text-align:center; 
+                          margin:20px 0; 
+                          padding:10px 0;	
+                          color:#ff006e; 
+                          font-family:'Agency FB'; 
+                          font-size:18px; }
 
 #rightnav a:link			{ color: #ff006e;  }
-#rightnav a:visited		    { color: #b200ff;  }
-#rightnav a:active		    { color: #F90;  }
 
 #topnav 			  { clear:both; }
 
-#topnav ul			  { border-top:1px #000 solid; border-bottom:1px #000 solid; text-align:center; margin:20px 0;
-                        margin-left:100px; margin-right:100px; padding:10px 0; color:#ff006e; font-family:'Agency FB';
+#topnav ul			  { border-top:1px #000 solid; 
+                        border-bottom:1px #000 solid;
+                        text-align:center;
+                        margin:20px 0;
+                        margin-left:100px;
+                        margin-right:100px;
+                        padding:10px 0;
+                        color:#ff006e;
+                        font-family:'Agency FB';
                         font-size:20px; }
-#topnav ul li		       { display:inline; }
-#topnav ul li a		       { padding:0 15px; }
-#topnav a:link			   { color: #ff006e; }
-#topnav a:visited		   { color: #b200ff; }
-#topnav a:active		   { color: #F90;  }
 
-#content 			{ width:800px; float:left; font-family:'Agency FB'; font-size:18px; }
+#topnav ul li		       { display:inline; }
+#topnav ul li a		       { padding:0 15px;
+                             color:#ff006e; }
+#topnav a:link			   { color: #ff006e; }
+
+#content 			{ width:800px; 
+                      float:left; 
+                      font-family:'Agency FB'; 
+                      font-size:18px; 
+                      text-align:center; }
 
 #content-fullwidth	{ width:100%;	}
 
 #rightside 			{ width:200px; float:right;  }
 
-#footer 			{ clear:both; margin:20px 0; border-top:1px #ccc solid; 
-					  padding-bottom:20px; color:#ff006e; font-size:16px; text-align:center; }
+#footer 			{ clear:both; 
+                      margin:20px 0; 
+                      border-top:1px #ccc solid; 
+					  padding-bottom:20px; 
+                      color:#ff006e; font-size:16px; 
+                      text-align:center; }
 
-#footer a           { color:#ff006e; text-align:center; }
+#footer a           { color:#ff006e; 
+                      text-align:center; }

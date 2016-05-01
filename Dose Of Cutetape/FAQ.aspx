@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Dose Of Cutetape FAQ Page" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="FAQ.aspx.cs" Inherits="Dose_Of_Cutetape.FAQ" %>
+﻿<%@ Page Title="FAQ Page" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="FAQ.aspx.cs" Inherits="Dose_Of_Cutetape.FAQ" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="CSS/FAQ.css" rel="stylesheet" type="text/css" media="screen"/>

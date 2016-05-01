@@ -12,8 +12,7 @@
 
 </head>
 <body>
-    <form id="form1" runat="server">
-
+    
     <div id="outer">
 
     <div id="wrapper">
@@ -44,9 +43,9 @@
         <ul>
             <li><a href="Default.aspx">HOME</a></li>
             <li><a href="Shop.aspx">SHOP</a></li>
-            <li><a href="Contact Us.aspx">CONTACT</a></li>
+            <li><a href="ContactUs.aspx">CONTACT</a></li>
             <li><a href="FAQ.aspx">FAQ</a></li>
-            <li><a href="Customer Service.aspx">CUSTOMER SERVICE</a></li>
+            <li><a href="CustomerService.aspx">CUSTOMER SERVICE</a></li>
         </ul>
 
      </div>
@@ -63,7 +62,6 @@
       </div>
     </div>
    </div>
-
-    </form>
+   
 </body>
 </html>

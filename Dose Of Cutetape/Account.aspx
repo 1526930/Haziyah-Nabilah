@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Dose Of Cutetape Account Page" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Account.aspx.cs" Inherits="Dose_Of_Cutetape.Account" %>
+﻿<%@ Page Title="Account Page" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Account.aspx.cs" Inherits="Dose_Of_Cutetape.Account" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="CSS/Account.css" rel="stylesheet" type="text/css"/>
